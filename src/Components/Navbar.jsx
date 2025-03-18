@@ -5,7 +5,7 @@ import { Menu } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-    { name: "Home", to: "/home", current: true },
+    { name: "Home", to: "/", current: true },
     { name: "Category", to: "/category", current: false },
     { name: "Projects", to: "/projects", current: false },
     { name: "Calendar", to: "/calendar", current: false },

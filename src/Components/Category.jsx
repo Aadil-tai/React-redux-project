@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
+import FoodItems from './FoodItems';
 
 const Category = () => {
-    // Step 1: Define Categories Array (External Data)
     const categories = [
         { id: 1, name: "All" },
         { id: 2, name: "Lunch" },
@@ -9,7 +9,6 @@ const Category = () => {
         { id: 4, name: "Dinner" },
         { id: 5, name: "Snacks" },
     ];
-    // Step 2: State for Selected Category
     const [selectedCategory, setSelectedCategory] = useState("All");
 
     return (
@@ -34,13 +33,9 @@ const Category = () => {
                         {category.name}
                     </button>
 
-
-
-
-
-
                 ))}
             </div>
+
         </div>
     )
 }
